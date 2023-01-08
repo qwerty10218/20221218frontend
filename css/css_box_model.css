@@ -2,7 +2,10 @@
     width: 100px;
     height: 100px;
     line-height: 80px;
-    background: #dedede;
+    background-color: #429b9e;
+    background-size:cover;
+    /* background-image: url(/images/dog2.jpg); */
+    background-image: url(../images/dog2.jpg);
     text-align: center;
     /* text-align: left; */
     /* text-align: right; */
@@ -12,7 +15,7 @@
     padding: 10px;
     box-sizing: border-box;
     word-break: break-all;
-    color:rgb(1, 190, 42);
+    color:rgb(228, 255, 234);
     font-size: 50px;
     font-weight: 400;
     font-family: 'East Sea Dokdo', cursive;
