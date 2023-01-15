@@ -52,6 +52,9 @@
 
 .block {
     background: #000;
+    color: #fff;
+    height: 100px;
+    overflow-y: hidden;
     margin: 20px auto;
 }
 
@@ -60,4 +63,13 @@
     height: 300px;
     border-radius: 300px;
     background: yellow;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.none {
+    display: none;
+    visibility: hidden;
 }
