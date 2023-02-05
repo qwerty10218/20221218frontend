@@ -32,3 +32,9 @@
     flex-direction: column;
     flex-direction: column-reverse;
 }
+
+.wrap {
+    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+}
