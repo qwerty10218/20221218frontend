@@ -70,4 +70,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    order: -2;
+}
+
+.order-1 {
+    order: -1;
 }
