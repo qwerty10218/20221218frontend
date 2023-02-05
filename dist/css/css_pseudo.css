@@ -69,4 +69,7 @@
 }
 .student tbody tr:nth-child(even) td {
   background: #dedede;
+}
+.student tbody tr:last-child td {
+  background: yellow;
 }/*# sourceMappingURL=css_pseudo.css.map */

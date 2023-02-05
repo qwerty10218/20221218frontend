@@ -76,5 +76,11 @@
                 background: #dedede;
             }
         }
+
+        tr:last-child {
+            td {
+                background: yellow;
+            }
+        }
     }
 }
