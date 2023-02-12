@@ -51,6 +51,9 @@
   padding: 10px;
   display: none;
 }
+.accrodion .tab > input:checked + label {
+  background: rgb(255, 105, 36);
+}
 .accrodion .tab > input:checked + label .open-icon {
   display: none;
 }

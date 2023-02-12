@@ -43,6 +43,8 @@
 
         >input:checked {
             +label {
+                background: rgb(255, 105, 36);
+
                 .open-icon {
                     display: none;
                 }
