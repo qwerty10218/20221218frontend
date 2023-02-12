@@ -27,6 +27,14 @@
   font-size: 26px;
   font-weight: 700;
   font-family: monospace;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.accrodion .tab > label:hover {
+  background: rgb(255, 105, 36);
 }
 .accrodion .tab .tab-content {
   padding: 10px;
