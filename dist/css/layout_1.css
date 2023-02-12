@@ -37,5 +37,16 @@ body {
   display: flex;
 }
 .header .menu li {
-  margin-right: 10px;
+  margin-left: 10px;
+  font-weight: 700;
+  text-align: center;
+}
+.header .menu li:first-child {
+  margin-left: 0;
+}
+.header .menu li:hover {
+  color: rgb(47, 47, 255);
+}
+.header .menu .en {
+  font-size: 14px;
 }/*# sourceMappingURL=layout_1.css.map */
