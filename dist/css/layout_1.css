@@ -90,11 +90,14 @@ a {
 .form-control-item.form-control-mixed {
   position: relative;
 }
+.form-control-item.form-control-mixed .form-control {
+  width: calc(100% - 1px);
+}
 .form-control-item.form-control-mixed.after .form-control {
   padding-right: 80px;
 }
 .form-control-item.form-control-mixed.after .form-control-append {
-  right: -1px;
+  right: 0;
 }
 .form-control-item.form-control-mixed.after .form-control-append .button {
   border-top-left-radius: 0;
@@ -102,9 +105,10 @@ a {
 }
 .form-control-item.form-control-mixed.before .form-control {
   padding-left: 80px;
+  margin-left: 1px;
 }
 .form-control-item.form-control-mixed.before .form-control-append {
-  left: -1px;
+  left: 0;
 }
 .form-control-item.form-control-mixed.before .form-control-append .button {
   border-top-right-radius: 0;
@@ -194,4 +198,12 @@ body {
   font-size: 14px;
   line-height: 30px;
   text-align: justify;
+}
+
+.process-flow {
+  background: #000;
+  background-image: url(../images/process.jpeg);
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
 }/*# sourceMappingURL=layout_1.css.map */

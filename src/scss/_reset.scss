@@ -91,13 +91,17 @@ a {
     &.form-control-mixed {
         position: relative;
 
+        .form-control {
+            width: calc(100% - 1px);
+        }
+
         &.after {
             .form-control {
                 padding-right: 80px;
             }
 
             .form-control-append {
-                right: -1px;
+                right: 0;
 
                 .button {
                     border-top-left-radius: 0;
@@ -109,10 +113,11 @@ a {
         &.before {
             .form-control {
                 padding-left: 80px;
+                margin-left: 1px;
             }
 
             .form-control-append {
-                left: -1px;
+                left: 0;
 
                 .button {
                     border-top-right-radius: 0;
