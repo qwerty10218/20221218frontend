@@ -10,12 +10,14 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    transition-property: background;
+    transition-property: all;
     transition-duration: 2s;
-    transition-delay: 1s;
+    // transition-delay: 1s;
+    transition-timing-function: ease;
 
     &:hover {
         background: #1d4fb9;
         font-size: 30px;
+        width: 1000px;
     }
 }
