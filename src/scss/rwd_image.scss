@@ -1,0 +1,21 @@
+@import 'reset';
+
+.img-block {
+    width: 200px;
+    height: 200px;
+    border: solid 2px;
+}
+
+.fluid-image {
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.fluid-image-max {
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
