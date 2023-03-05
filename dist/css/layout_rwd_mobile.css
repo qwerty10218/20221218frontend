@@ -1,6 +1,7 @@
 .mobile-icon {
   position: relative;
   display: flex;
+  display: none;
   flex-direction: column;
   cursor: pointer;
   width: 30px;
